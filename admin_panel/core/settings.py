@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -78,8 +79,8 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "trading",
-        "USER": "trading_bot",
-        "PASSWORD": "906051199@@",
+        "USER": "postgres",
+        "PASSWORD": "karimbek2004",
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }

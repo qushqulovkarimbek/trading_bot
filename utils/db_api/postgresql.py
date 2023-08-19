@@ -2,8 +2,8 @@ import psycopg2
 
 
 def send_human_info(command):
-    mydb = psycopg2.connect(user="trading_bot",
-                            password="906051199@@",
+    mydb = psycopg2.connect(user="postgres",
+                            password="karimbek2004",
                             host="127.0.0.1",
                             port="5432",
                             database="trading")
